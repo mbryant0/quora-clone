@@ -1,0 +1,41 @@
+.oauth {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  transition: opacity ease-in-out 100ms, color ease-in-out 100ms,
+    background-color ease-in-out 100ms, border-color ease-in-out 100ms;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px 0 rgb(200 200 200 / 20%);
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 16px;
+  font-size: 15px;
+  padding: 0px 16px;
+  width: 270px;
+  color: #6d6d6d;
+  background-color: #fff;
+  border: 1px solid #dee0e1;
+  text-align: left;
+  height: 40px;
+}
+
+.oauth:hover {
+  background-color: #f6f6f9;
+}
+.oauth:active {
+  opacity: 0.6;
+  box-shadow: none;
+}
+.oauth .img-container {
+  width: 24px;
+  height: 24px;
+}
+
+.oauth p {
+  margin-left: 3%;
+  color: #6d6d6d;
+  font-weight: 500;
+  font-size: 15px;
+}

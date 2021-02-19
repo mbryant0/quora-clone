@@ -1,0 +1,19 @@
+import React from 'react';
+import './NavigationBar.css';
+
+const NavigationBar = () => {
+  return (
+    <div className='nav-bar'>
+      <p className='logo logo-header'>Querria</p>
+      <div className='search'>
+        <img src='https://www.freepngimg.com/download/world_wide_web/62434-engine-web-search-wordpress.com-icons-wallpaper-desktop.png' />
+        <input type='text' placeholder='Search Querria' />
+      </div>
+      <div>
+        <img />
+      </div>
+      <div>Add Question</div>
+    </div>
+  );
+};
+export default NavigationBar;

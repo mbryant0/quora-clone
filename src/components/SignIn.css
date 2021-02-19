@@ -1,0 +1,126 @@
+.background-container {
+  background: url(https://cdn.unifiedcommerce.com/content/product/large/079346038473.jpg);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-size: cover;
+}
+
+.sign-in-container {
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0 0 5px #888;
+  border-radius: 4px;
+  padding: 1%;
+  padding-top: 0;
+  width: 650px;
+  bottom: initial;
+  left: 0;
+  right: 0;
+  margin: 7% auto;
+  overflow-y: hidden;
+  top: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  font-family: 'Literata', serif;
+  font-weight: 700;
+  color: #b92b27;
+  margin: 0;
+}
+
+.logo-sign-in {
+  font-size: 4.6rem;
+}
+
+.headline {
+  font-size: 19px;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  color: #949494;
+  text-align: center;
+}
+
+.sign-in-content {
+  display: flex;
+  flex-direction: row;
+  margin: 7% 3%;
+  justify-content: space-between;
+}
+
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.sign-up {
+  width: 45%;
+}
+.login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.login-input {
+  box-sizing: border-box;
+  outline: 0;
+  border: 1px solid #e2e2e2;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 1px rgb(200 200 200 / 30%);
+  -webkit-transition: border-color 0.2s;
+  transition: border-color 0.2s;
+  width: 100%;
+  font-size: 15px;
+  padding-left: 8px;
+  padding-right: 8px;
+  min-height: 32px;
+  margin-bottom: 8px;
+  background-color: #eee;
+}
+
+.email {
+  margin-bottom: 10%;
+}
+
+.login-title {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 13px;
+  color: #333;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.forgot-pwd {
+  margin: 0;
+}
+
+.general-text {
+  color: #949494;
+  font-size: 13px;
+}
+
+.login-btn {
+  background: #3e78ad;
+  color: #fff;
+  border: 1px solid #3a66ad;
+  box-shadow: 0 1px 1px 0 rgb(200 200 200 / 60%);
+  transition: opacity ease-in-out 100ms, color ease-in-out 100ms,
+    background-color ease-in-out 100ms, border-color ease-in-out 100ms;
+  padding: 3px 7px 4px 7px;
+  border-radius: 3px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.general-text a {
+  text-decoration: none;
+  color: #2b6dad;
+  cursor: pointer;
+}
