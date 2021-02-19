@@ -3,7 +3,7 @@ import './NavigationBar.css';
 import { auth } from '../../firebase/firebase.utils';
 import { Link } from 'react-router-dom';
 
-const NavigationBar = () => {
+const NavigationBar = ({ togglePopup }) => {
   return (
     <div className='nav-bar'>
       <p className='logo logo-header'>Querria</p>
@@ -20,7 +20,9 @@ const NavigationBar = () => {
       >
         Sign Out
       </Link>
-      <div>Add Question</div>
+      <div className='click' onClick={togglePopup}>
+        Add Question
+      </div>
     </div>
   );
 };
