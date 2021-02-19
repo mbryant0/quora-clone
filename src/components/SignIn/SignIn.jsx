@@ -5,6 +5,9 @@ import OAuthBtn from '../OAuthBtn/OAuthBtn';
 import { SignInWithGoogle } from '../../firebase/firebase.utils';
 import { SignInWithGitHub } from '../../firebase/firebase.utils';
 
+/*This is the sign in page - so far, we only have Google and GitHub Authentication. 
+I still need to add authentication by email and password, and add a demo user */
+
 const SignIn = () => {
   return (
     <div className='background-container'>

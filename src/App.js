@@ -5,6 +5,8 @@ import './App.css';
 import { auth } from './firebase/firebase.utils';
 import { Switch, Route } from 'react-router-dom';
 
+/* We still need to add protected routes so that people can only access the content if they are logged in */
+
 class App extends React.Component {
   constructor() {
     super();

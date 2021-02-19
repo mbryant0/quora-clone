@@ -17,12 +17,16 @@ firebase.initializeApp(config);
 export const auth = firebase.auth();
 export const firestore = firebase.firestore();
 
-const gooogleProvider = new firebase.auth.GoogleAuthProvider();
+const googleProvider = new firebase.auth.GoogleAuthProvider();
 const githubProvider = new firebase.auth.GithubAuthProvider();
 
-gooogleProvider.setCustomParameters({ prompt: 'select_account' });
+googleProvider.setCustomParameters({ prompt: 'select_account' });
 
-export const SignInWithGoogle = () => auth.signInWithPopup(gooogleProvider);
-export const SignInWithGitHub = () => auth.signInWithPopup(githubProvider);
+export const SignInWithGoogle = (e) => {
+  auth.signInWithPopup(googleProvider);
+};
+export const SignInWithGitHub = () => {
+  auth.signInWithPopup(githubProvider);
+};
 
 export default firebase;

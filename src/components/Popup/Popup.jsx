@@ -1,9 +1,9 @@
 import React from 'react';
 import './Popup.css';
 
-const Popup = ({ children }) => {
+const Popup = ({ children, togglePopup }) => {
   return (
-    <div className='popup'>
+    <div onClick={togglePopup} className='popup'>
       <div className='inner-popup'>{children}</div>
     </div>
   );
