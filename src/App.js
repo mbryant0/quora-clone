@@ -1,6 +1,6 @@
 import React from 'react';
-import SignIn from './components/SignIn';
-import Home from './components/Home';
+import SignIn from './components/SignIn/SignIn';
+import Home from './components/Home/Home';
 import './App.css';
 import { auth } from './firebase/firebase.utils';
 import { Switch, Route } from 'react-router-dom';

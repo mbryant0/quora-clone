@@ -1,6 +1,6 @@
 import React from 'react';
 import './NavigationBar.css';
-import { auth } from '../firebase/firebase.utils';
+import { auth } from '../../firebase/firebase.utils';
 import { Link } from 'react-router-dom';
 
 const NavigationBar = () => {

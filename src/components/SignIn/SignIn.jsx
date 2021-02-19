@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './SignIn.css';
-import OAuthBtn from './OAuthBtn';
-import { SignInWithGoogle } from '../firebase/firebase.utils';
-import { SignInWithGitHub } from '../firebase/firebase.utils';
+import OAuthBtn from '../OAuthBtn/OAuthBtn';
+import { SignInWithGoogle } from '../../firebase/firebase.utils';
+import { SignInWithGitHub } from '../../firebase/firebase.utils';
 
 const SignIn = () => {
   return (
