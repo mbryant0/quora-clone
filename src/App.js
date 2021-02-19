@@ -28,7 +28,9 @@ class App extends React.Component {
     return (
       <div className='App'>
         <Switch>
-          <Route path='/home' component={Home} />
+          <Route path='/home'>
+            <Home currentUser={this.state.currentUser} />
+          </Route>
           <Route path='/' component={SignIn} />
         </Switch>
       </div>

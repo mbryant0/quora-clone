@@ -8,8 +8,16 @@
 }
 
 .nav-bar p,
-.nav-bar div {
+.nav-bar div,
+.nav-bar a {
   margin: 5px 2%;
+}
+.nav-bar a {
+  text-decoration: none;
+}
+
+.nav-bar a:visited {
+  color: black;
 }
 
 .logo-header {
@@ -52,4 +60,8 @@
 
 .search input::placeholder {
   color: #949494;
+}
+
+.sign-out {
+  cursor: pointer;
 }

@@ -2,10 +2,10 @@ import React from 'react';
 import NavigationBar from './NavigationBar';
 import './Home.css';
 
-const Home = () => {
+const Home = (props) => {
   return (
     <div div className='home'>
-      <NavigationBar />
+      <NavigationBar currentUser={props.currentUser} />
       <p>Hi</p>
     </div>
   );

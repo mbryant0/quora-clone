@@ -1,5 +1,7 @@
 import React from 'react';
 import './NavigationBar.css';
+import { auth } from '../firebase/firebase.utils';
+import { Link } from 'react-router-dom';
 
 const NavigationBar = () => {
   return (
@@ -9,9 +11,15 @@ const NavigationBar = () => {
         <img src='https://www.freepngimg.com/download/world_wide_web/62434-engine-web-search-wordpress.com-icons-wallpaper-desktop.png' />
         <input type='text' placeholder='Search Querria' />
       </div>
-      <div>
-        <img />
-      </div>
+      <Link
+        to='/'
+        className='sign-out'
+        onClick={() => {
+          auth.signOut();
+        }}
+      >
+        Sign Out
+      </Link>
       <div>Add Question</div>
     </div>
   );
